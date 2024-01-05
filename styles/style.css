@@ -1,3 +1,23 @@
+*{
+    margin: 2px;
+    font-weight: 600;
+}
 header > hr{
+    margin-top: 20px;
+}
+main > hr{
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+label{
+    display: block;
+    /* margin-bottom: 10px; */
+}
+#date{
+    width: 15%;
+}
+#submit{
     margin-top: 20px;
 }
