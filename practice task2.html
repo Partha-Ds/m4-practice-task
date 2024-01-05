@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task 2</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        header>h2 {
+            margin-top: 10px;
+        }
+
+        label {
+            display: block;
+            /* margin-top: 5px; */
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-top: 10px;
+        }
+
+        body {
+            margin-left: 5px;
+        }
+
+        hr {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #submit{
+        margin-left: 370px;
+        }
+        #ratings{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Storytelling Competition</h2>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <label for="story">
+                    <p>Story:</p>
+                    <textarea name="story" id="story" cols="100" rows="20" placeholder="Your Story.."></textarea>
+                </label>
+                <label for="name">Name: <br>
+                    <input id="name" type="text" placeholder="Name">
+                </label>
+                <label for="email">Email: <br>
+                    <input id="email" type="email" placeholder="email">
+                </label>
+                <label for="submit">
+                    <input type="submit" value="submit">
+                </label>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Comments:</h2>
+            <form action="">
+                <label for="comment">
+                    <img src="media/png-mandala-design-free-download-116723859252picws6n6o.png" alt="User" width="40"
+                        height="40">
+                    <textarea name="comment" id="comment" cols="60" rows="2" placeholder="Add a comment.."></textarea>
+                </label>
+                <label for="ratings" id="ratings">
+                    <h4>Ratings:</h4>
+                    <select name="dropdown" id="dropdown">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Bad">Bad</option>
+                    </select>    
+                </label>
+                <label for="submit" id="submit">
+                    <input type="reset" value="Cancel" disabled>
+                    <input type="submit" value="Comment">
+                </label>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
